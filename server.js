@@ -21,7 +21,7 @@ require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
 // API Routes. Sets an initial port.
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 
 // The below code effectively "starts" our server
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
